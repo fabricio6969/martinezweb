@@ -3,7 +3,7 @@
         <div class="row h-100">
             <div class="col-12 h-100">
                 <nav class="h-100 navbar navbar-expand-lg align-items-center">
-                    <a class="navbar-brand logo" href="#body">
+                    <a class="navbar-brand logo" [routerLink]="['/Inicio']">
                         <!-- <img src="images/logo.png" alt="Website Logo" /> -->
                         <img src="../../../assets/img/martinez.png" style="width: 210px !important; height: 175px i !important;" />
                     </a>
@@ -13,7 +13,7 @@
                         <ul class="navbar-nav ml-auto" id="caviarMenu">
 
                             <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" [routerLink]="['/Inicio']">Inicio <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Empresa</a>
