@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MuseoComponent implements OnInit {
 
+  urlmuseo = "https://res.cloudinary.com/martinezweb/image/upload/v1626353065/assets/img/museo-img/";
   constructor() { }
 
   ngOnInit(): void {
