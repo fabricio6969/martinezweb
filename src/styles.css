@@ -19,7 +19,9 @@
 @import 'assets/css/others/owl.carousel.min.css';
 @import 'assets/css/others/font-awesome.min.css';
 @import 'assets/css/others/pe-icon-7-stroke.css';
-@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* @import 'bootstrap/dist/css/bootstrap.min.css'; */
+
 
 /* Base CSS */
 
@@ -472,9 +474,19 @@ li {
 }
 
 .bg-img {
+    /*    background-position: center center;
+    background-size: 1705px 555px; */
     background-position: center center;
     background-size: 1705px 555px;
-    ;
+    background-repeat: no-repeat;
+}
+
+.bg-img1 {
+    /*    background-position: center center;
+    background-size: 1705px 555px; */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .bg-overlay {
@@ -633,7 +645,7 @@ li {
     padding-right: 15px;
     padding-left: 15px;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .navbar-nav .nav-link:hover,
