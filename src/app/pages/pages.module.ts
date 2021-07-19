@@ -22,12 +22,13 @@ import { MhgroupComponent } from './mhgroup/mhgroup.component';
 import { HistoriaComponent } from './historia/historia.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { MuseoComponent } from './museo/museo.component';
+import { NoticiasComponent } from './noticias/noticias.component';
 
 
 
 
 @NgModule({
-  declarations: [PagesComponent, InicioComponent, ProductoComponent, ProdCuidadoBucalComponent, ProdPapelComponent, ProdJabonesComponent, ProdLimpiezaComponent, NosotrosComponent, ProdLicoresComponent, ProdAgripacComponent, ProdDulcesComponent, ProdEstrellaComponent, MhgroupComponent, HistoriaComponent, ContactoComponent, MuseoComponent],
+  declarations: [PagesComponent, InicioComponent, ProductoComponent, ProdCuidadoBucalComponent, ProdPapelComponent, ProdJabonesComponent, ProdLimpiezaComponent, NosotrosComponent, ProdLicoresComponent, ProdAgripacComponent, ProdDulcesComponent, ProdEstrellaComponent, MhgroupComponent, HistoriaComponent, ContactoComponent, MuseoComponent, NoticiasComponent],
   exports: [
     PagesComponent,
     InicioComponent,

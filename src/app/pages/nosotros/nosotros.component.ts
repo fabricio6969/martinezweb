@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nosotros.component.css']
 })
 export class NosotrosComponent implements OnInit {
-
+  urlnosotros = "https://res.cloudinary.com/martinezweb/image/upload/v1626277737/assets/img/bg-img/";
   constructor() { }
 
   ngOnInit(): void {

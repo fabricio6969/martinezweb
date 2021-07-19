@@ -15,6 +15,8 @@ import { MhgroupComponent } from './mhgroup/mhgroup.component';
 import { HistoriaComponent } from './historia/historia.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { MuseoComponent } from './museo/museo.component';
+import { NoticiasComponent } from './noticias/noticias.component';
+
 
 
 
@@ -39,6 +41,7 @@ const pagesRoutes: Routes = [
 { path: 'historia', component:HistoriaComponent}, 
 { path: 'contacto', component:ContactoComponent},
 { path: 'museo', component:MuseoComponent},
+{ path: 'noticias', component:NoticiasComponent},
         { path: '', redirectTo: '/Inicio', pathMatch: 'full' }
         ]
     }

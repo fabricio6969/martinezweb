@@ -9,7 +9,7 @@ import { Router, RouterModule } from '@angular/router';
   ]
 })
 export class InicioComponent implements OnInit {
-
+  urlinicio = "https://res.cloudinary.com/martinezweb/image/upload/v1626277737/assets/img/bg-img/";
   constructor(
     public router:Router
     ) { }
