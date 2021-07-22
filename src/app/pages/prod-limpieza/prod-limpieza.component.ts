@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./prod-limpieza.component.css']
 })
 export class ProdLimpiezaComponent implements OnInit {
-
+  urllimpieza= "https://res.cloudinary.com/martinezweb/image/upload/v1626278502/assets/img/menu-img/limpieza/";
   constructor() { }
 
   ngOnInit(): void {

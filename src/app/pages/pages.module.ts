@@ -4,7 +4,6 @@ import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-
 import { InicioComponent } from './inicio/inicio.component';
 import { RouterModule } from '@angular/router';
 import { PAGES_ROUTES } from './pages.routes';
@@ -23,12 +22,14 @@ import { HistoriaComponent } from './historia/historia.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { MuseoComponent } from './museo/museo.component';
 import { NoticiasComponent } from './noticias/noticias.component';
+import { ProdBebidasComponent } from './prod-bebidas/prod-bebidas.component';
+import { ProdPastasComponent } from './prod-pastas/prod-pastas.component';
 
 
 
 
 @NgModule({
-  declarations: [PagesComponent, InicioComponent, ProductoComponent, ProdCuidadoBucalComponent, ProdPapelComponent, ProdJabonesComponent, ProdLimpiezaComponent, NosotrosComponent, ProdLicoresComponent, ProdAgripacComponent, ProdDulcesComponent, ProdEstrellaComponent, MhgroupComponent, HistoriaComponent, ContactoComponent, MuseoComponent, NoticiasComponent],
+  declarations: [PagesComponent, InicioComponent, ProductoComponent, ProdCuidadoBucalComponent, ProdPapelComponent, ProdJabonesComponent, ProdLimpiezaComponent, NosotrosComponent, ProdLicoresComponent, ProdAgripacComponent, ProdDulcesComponent, ProdEstrellaComponent, MhgroupComponent, HistoriaComponent, ContactoComponent, MuseoComponent, NoticiasComponent, ProdBebidasComponent, ProdPastasComponent],
   exports: [
     PagesComponent,
     InicioComponent,
