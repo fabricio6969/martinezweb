@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./prod-agripac.component.css']
 })
 export class ProdAgripacComponent implements OnInit {
-
+  urlagripac = "https://res.cloudinary.com/martinezweb/image/upload/v1626278041/assets/img/menu-img/agripac/";
   constructor() { }
 
   ngOnInit(): void {

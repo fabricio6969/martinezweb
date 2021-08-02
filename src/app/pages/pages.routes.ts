@@ -21,6 +21,7 @@ import { ProdBebidasComponent } from './prod-bebidas/prod-bebidas.component';
 
 
 
+
 const pagesRoutes: Routes = [
     {
         path: '',
