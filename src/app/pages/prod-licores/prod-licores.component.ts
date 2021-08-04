@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./prod-licores.component.css']
 })
 export class ProdLicoresComponent implements OnInit {
-
+urllicores = "https://res.cloudinary.com/martinezweb/image/upload/v1628084586/assets/img/menu-img/Licores/";
   constructor() { }
 
   ngOnInit(): void {

@@ -17,6 +17,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { MuseoComponent } from './museo/museo.component';
 import { NoticiasComponent } from './noticias/noticias.component';
 import { ProdBebidasComponent } from './prod-bebidas/prod-bebidas.component';
+import { ProdAvenaComponent } from './prod-avena/prod-avena.component';
 
 
 
@@ -46,6 +47,7 @@ const pagesRoutes: Routes = [
 { path: 'museo', component:MuseoComponent},
 { path: 'noticias', component:NoticiasComponent},
 { path: 'ProductoBebidas', component:NoticiasComponent},
+{ path: 'ProductoAvena', component:ProdAvenaComponent},
         { path: '', redirectTo: '/Inicio', pathMatch: 'full' }
         ]
     }
