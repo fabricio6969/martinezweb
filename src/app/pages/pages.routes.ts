@@ -18,6 +18,7 @@ import { MuseoComponent } from './museo/museo.component';
 import { NoticiasComponent } from './noticias/noticias.component';
 import { ProdBebidasComponent } from './prod-bebidas/prod-bebidas.component';
 import { ProdAvenaComponent } from './prod-avena/prod-avena.component';
+import { ProdFideosComponent } from './prod-fideos/prod-fideos.component';
 
 
 
@@ -48,6 +49,7 @@ const pagesRoutes: Routes = [
 { path: 'noticias', component:NoticiasComponent},
 { path: 'ProductoBebidas', component:NoticiasComponent},
 { path: 'ProductoAvena', component:ProdAvenaComponent},
+{ path: 'ProductoFideo', component:ProdFideosComponent},
         { path: '', redirectTo: '/Inicio', pathMatch: 'full' }
         ]
     }

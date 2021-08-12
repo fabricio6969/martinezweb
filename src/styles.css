@@ -623,7 +623,7 @@ li {
 }
 
 .sticky .header_area {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(255, 255, 255, 0.627);
     height: 70px;
     z-index: 9999;
 }
@@ -644,8 +644,8 @@ li {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 15px;
     padding-left: 15px;
-    color: #fff;
-    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
 }
 
 .navbar-nav .nav-link:hover,
@@ -695,7 +695,7 @@ li {
 .single-hero-slides:after {
     position: absolute;
     width: calc(50% - 112px);
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(232, 239, 246, 0.593);
     height: 100%;
     top: 0;
     left: 0;
@@ -709,19 +709,19 @@ li {
     position: absolute;
     z-index: -1;
     content: '';
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(99, 96, 96, 0.096);
     top: 0;
     left: 0;
 }
 
 .hero-content h2 {
     font-size: 52px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     margin-bottom: 20px;
 }
 
 .hero-content p {
-    color: #fff;
+    color: rgb(0, 0, 0);
     margin-bottom: 70px;
 }
 
