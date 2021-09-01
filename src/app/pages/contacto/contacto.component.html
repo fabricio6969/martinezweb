@@ -1,4 +1,4 @@
-<div class="breadcumb-area bg-img bg-overlay" style="background-image: url(https://res.cloudinary.com/martinezweb/image/upload/v1626277734/assets/img/bg-img/empresa_p681yp.png)">
+<div class="breadcumb-area bg-img bg-overlay" style="background-image: url(https://res.cloudinary.com/martinezweb/image/upload/v1630344845/assets/img/bg-img/empresa2_if4kvy.png)">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-12">
@@ -23,16 +23,19 @@
             <div class="contact-form-title">
                 <p>Ponerse en contacto</p>
             </div>
-            <form action="#">
+            <form #add="ngForm" id="addForm" (ngSubmit)="enviarMsj(add); add.reset();" autocomplete="off">
                 <div class="row">
                     <div class="col-12">
-                        <input type="text" class="form-control" placeholder="Tu nombre">
+                        <input type="text" name="name" class="form-control" placeholder="Tu nombre" [ngModel]="nombre">
                     </div>
                     <div class="col-12">
-                        <input type="email" class="form-control" placeholder="tu correo electronico">
+                        <input type="email" name="mail" class="form-control" placeholder="tu correo electronico" [ngModel]="email">
                     </div>
                     <div class="col-12">
-                        <textarea name="message" class="form-control" id="Message" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+                        <input type="text" name="phone" placeholder="Ingrese celular" class="form-control" [ngModel]="phone">
+                    </div>
+                    <div class="col-12">
+                        <textarea name="mensaje" class="form-control" id="Message" cols="30" rows="10" placeholder="Tu mensaje" [ngModel]="mensaje"></textarea>
                     </div>
                     <div class="col-12">
                         <button type="submit" class="btn caviar-btn"><span></span> Enviar mensaje</button>

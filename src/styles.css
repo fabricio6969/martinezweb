@@ -52,7 +52,7 @@ h6 {
 }
 
 p {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgb(0, 0, 0);
     font-size: 16px;
     line-height: 1.9;
     font-weight: 400;
@@ -623,7 +623,7 @@ li {
 }
 
 .sticky .header_area {
-    background-color: rgba(255, 255, 255, 0.627);
+    background-color: rgba(255, 255, 255, 0.724);
     height: 70px;
     z-index: 9999;
 }
@@ -695,7 +695,7 @@ li {
 .single-hero-slides:after {
     position: absolute;
     width: calc(50% - 112px);
-    background-color: rgba(232, 239, 246, 0.593);
+    background-color: rgba(232, 239, 246, 0.71);
     height: 100%;
     top: 0;
     left: 0;
@@ -1125,8 +1125,8 @@ li {
 }
 
 .breadcumb-content h2 {
-    color: #fff;
-    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
     line-height: 1;
     margin-bottom: 70px;
 }
@@ -1136,7 +1136,7 @@ li {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(232, 239, 246, 0.71);
     content: "";
     position: absolute;
 }
@@ -1438,4 +1438,14 @@ blockquote img {
     100% {
         margin-left: -300%;
     }
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
 }

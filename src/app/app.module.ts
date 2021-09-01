@@ -9,6 +9,9 @@ import { InicioComponent } from './pages/inicio/inicio.component';
 import { RouterModule } from '@angular/router';
 import { PagesModule } from './pages/pages.module';
 import { APP_ROUTES } from './app.routes';
+import { ContactsService } from './services/contacts.service';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,9 +20,13 @@ import { APP_ROUTES } from './app.routes';
     RouterModule,
     PagesModule,
     APP_ROUTES,
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [
+    ContactsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

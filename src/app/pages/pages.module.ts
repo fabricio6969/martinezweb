@@ -37,11 +37,11 @@ import { ProdAvenaComponent } from './prod-avena/prod-avena.component';
     ProductoComponent
   ],
   imports: [
-  SharedModule,
-  BrowserModule,
-  FormsModule,
-  RouterModule,
-  PAGES_ROUTES
+    SharedModule,
+    BrowserModule,
+    FormsModule,
+    RouterModule,
+    PAGES_ROUTES
 
   ],
 })
