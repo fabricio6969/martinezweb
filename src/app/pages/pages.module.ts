@@ -25,12 +25,13 @@ import { NoticiasComponent } from './noticias/noticias.component';
 import { ProdBebidasComponent } from './prod-bebidas/prod-bebidas.component';
 import { ProdFideosComponent } from './prod-fideos/prod-fideos.component';
 import { ProdAvenaComponent } from './prod-avena/prod-avena.component';
+import { ProdBebidaCalComponent } from './prod-bebida-cal/prod-bebida-cal.component';
 
 
 
 
 @NgModule({
-  declarations: [PagesComponent, InicioComponent, ProductoComponent, ProdCuidadoBucalComponent, ProdPapelComponent, ProdJabonesComponent, ProdLimpiezaComponent, NosotrosComponent, ProdLicoresComponent, ProdAgripacComponent, ProdDulcesComponent, ProdEstrellaComponent, MhgroupComponent, HistoriaComponent, ContactoComponent, MuseoComponent, NoticiasComponent, ProdBebidasComponent, ProdFideosComponent, ProdAvenaComponent],
+  declarations: [PagesComponent, InicioComponent, ProductoComponent, ProdCuidadoBucalComponent, ProdPapelComponent, ProdJabonesComponent, ProdLimpiezaComponent, NosotrosComponent, ProdLicoresComponent, ProdAgripacComponent, ProdDulcesComponent, ProdEstrellaComponent, MhgroupComponent, HistoriaComponent, ContactoComponent, MuseoComponent, NoticiasComponent, ProdBebidasComponent, ProdFideosComponent, ProdAvenaComponent, ProdBebidaCalComponent],
   exports: [
     PagesComponent,
     InicioComponent,

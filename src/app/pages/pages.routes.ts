@@ -19,6 +19,7 @@ import { NoticiasComponent } from './noticias/noticias.component';
 import { ProdBebidasComponent } from './prod-bebidas/prod-bebidas.component';
 import { ProdAvenaComponent } from './prod-avena/prod-avena.component';
 import { ProdFideosComponent } from './prod-fideos/prod-fideos.component';
+import { ProdBebidaCalComponent } from './prod-bebida-cal/prod-bebida-cal.component';
 
 
 
@@ -50,6 +51,7 @@ const pagesRoutes: Routes = [
 { path: 'ProductoBebidas', component:NoticiasComponent},
 { path: 'ProductoAvena', component:ProdAvenaComponent},
 { path: 'ProductoFideo', component:ProdFideosComponent},
+{ path: 'ProductoCafe', component:ProdBebidaCalComponent},
         { path: '', redirectTo: '/Inicio', pathMatch: 'full' }
         ]
     }
